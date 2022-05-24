@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <h1>Rock paper scissors simulator</h1>
     <label>Your choice(R,P,S)</label>
-    <select name="game" id="game">
-      <option value="Rock">Rock</option>
-      <option value="Paper">Paper</option>
-      <option value="Scissors">Scissors</option>
-    </select>
-      
-    </script>
+    <button value="rock" id="rock">Rock</button>
+    <button value="paper" id="paper">Paper</button>
+    <button value="scissors" id="scissors">Scissors</button>
+    <br />
+    <button id="playRound">Play Round</button>
+    <br />
+    <div id="pSelect"></div>
+    <div id="results"></div>
   </body>
 </html>
